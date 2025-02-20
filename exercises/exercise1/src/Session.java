@@ -10,7 +10,8 @@ public class Session {
     public Session() {
         this.students = new ArrayList<>();
     }
-
+    
+    //Populate 20 students (full-time or part-time)
     public void populateStudents(){
         Random random = new Random();
         for (int i = 1; i < 21; i++) {
@@ -28,6 +29,7 @@ public class Session {
         }
     }
 
+    //Create dummy scores
     public void populateQuizScores(Student student) {
         Random random = new Random();
         for (int i = 0; i < 15; i++) {
