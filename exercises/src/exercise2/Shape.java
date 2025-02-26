@@ -1,8 +1,12 @@
+package exercise2;
+
+import java.io.Serializable;
+
 /**
  * @author  Hedy Huang
  * @version 1.0
  */
-abstract public class Shape {
+abstract public class Shape implements Serializable {
     private static String color = "green"; //static field
     private String name;
 

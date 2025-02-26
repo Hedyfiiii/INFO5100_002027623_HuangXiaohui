@@ -1,3 +1,5 @@
+package exercise2;
+
 /**
  * @author Hedy Huang
  * @version 1.0

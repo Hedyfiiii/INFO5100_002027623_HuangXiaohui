@@ -1,3 +1,5 @@
+package exercise2;
+
 /**
  * @author Xioahui Huang
  * @version 1.0

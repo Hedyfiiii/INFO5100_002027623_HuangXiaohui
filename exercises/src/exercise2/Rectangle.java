@@ -1,8 +1,12 @@
+package exercise2;
+
+import java.io.Serializable;
+
 /**
  * @author Hedy Huang
  * @version 1.0
  */
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private double length;
     private double width;
 
@@ -26,6 +30,14 @@ public class Rectangle extends Shape{
 
     public void setWidth(double width) {
         this.width = width;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                '}';
     }
 
     @Override
