@@ -25,7 +25,6 @@ public class Student {
     }
 
     public void inputQuizzesScores(int score) {
-
         quizzesScores.add(score);
     }
 
