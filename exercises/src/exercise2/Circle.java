@@ -1,8 +1,12 @@
+package exercise2;
+
+import java.io.Serializable;
+
 /**
  * @author Hedy Huang
  * @version 1.0
  */
-public class Circle extends Shape{
+public class Circle extends Shape {
     private final double PI = 3.141592;
     private double radius;
 
@@ -21,6 +25,14 @@ public class Circle extends Shape{
 
     public void setRadius(double radius) {
         this.radius = radius;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "PI=" + PI +
+                ", radius=" + radius +
+                '}';
     }
 
     @Override
