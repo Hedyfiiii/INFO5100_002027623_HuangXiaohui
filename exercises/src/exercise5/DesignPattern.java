@@ -9,6 +9,7 @@ import java.util.List;
  */
 
 // Here is a realistic social media system demonstrating three design patterns:
+
 // 1. Factory Pattern (User Creation)
 abstract class User {
     protected String username;
