@@ -8,6 +8,7 @@ import java.util.List;
  * @version 1.0
  */
 
+
 // 1. Factory Pattern (User Creation)
 abstract class User {
     protected String username;
