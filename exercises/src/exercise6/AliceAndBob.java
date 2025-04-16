@@ -1,16 +1,16 @@
 package exercise6;
 
-/**
- * @author Hedy Huang
- * @version 1.0
- */
-
 import javax.crypto.*;
 import javax.crypto.spec.*;
 import java.security.*;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
+
+/**
+ * @author Hedy Huang
+ * @version 1.0
+ */
 
 public class AliceAndBob {
 
