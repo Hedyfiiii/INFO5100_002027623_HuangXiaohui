@@ -4,6 +4,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/StockTradingSimulator/src/app" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/StockTradingSimulator/src/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -32,5 +34,9 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:21.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:21.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:21.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:21.0.2" level="project" />
   </component>
 </module>

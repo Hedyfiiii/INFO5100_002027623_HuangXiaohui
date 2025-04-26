@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Finalproject/Finalproject.iml" filepath="$PROJECT_DIR$/Finalproject/Finalproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/INFO5100_002027623_HuangXiaohui.iml" filepath="$PROJECT_DIR$/.idea/INFO5100_002027623_HuangXiaohui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageManagementTool.iml" filepath="$PROJECT_DIR$/ImageManagementTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercises/exercises.iml" filepath="$PROJECT_DIR$/exercises/exercises.iml" />
-      <module fileurl="file://$PROJECT_DIR$/final project/final project.iml" filepath="$PROJECT_DIR$/final project/final project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageConverter/ImageConverter/image-converter.iml" filepath="$PROJECT_DIR$/ImageConverter/ImageConverter/image-converter.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox spacing="20" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller">
+    <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+
+    <!-- Left side: Controls and Preview -->
+    <VBox spacing="10">
+        <Button text="Choose Image" onAction="#handleChooseImage"/>
+        <ComboBox fx:id="formatBox" promptText="Select Format">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="png"/>
+                    <String fx:value="jpg"/>
+                    <String fx:value="bmp"/>
+                    <String fx:value="gif"/>
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <ScrollPane prefHeight="300" prefWidth="500" fitToWidth="true">
+            <FlowPane fx:id="previewPane" hgap="10" vgap="10">
+                <padding>
+                    <Insets top="10" right="10" bottom="10" left="10"/>
+                </padding>
+            </FlowPane>
+        </ScrollPane>
+        <Button text="Convert" fx:id="convertBtn" onAction="#handleConvert" disable="true"/>
+        <Button text="Download All" fx:id="downloadBtn" onAction="#handleDownloadAll" disable="true"/>
+        <ProgressBar fx:id="progressBar" prefWidth="300" progress="0.0"/>
+        <TextArea fx:id="statusLabel" editable="false" wrapText="true" prefHeight="150"/>
+    </VBox>
+
+    <!-- Right side: Image info -->
+    <VBox spacing="10" prefWidth="300">
+        <Label text="Image Info"/>
+        <TextArea fx:id="imageInfoArea" editable="false" wrapText="true" prefHeight="500"/>
+    </VBox>
+</HBox>
+
+
+
